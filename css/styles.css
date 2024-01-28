@@ -1,0 +1,58 @@
+:root {
+  --blue-color: #2196f3;
+  --black-color: #212123;
+  --gray-color: #75757575;
+  --white-color: #FFFFFF;
+  --blue-background-color: #2196f3;
+  --dark-background-color: #2F303A;
+}
+
+.studio,
+.mailto,
+.Portfolioo {
+  color: var(--blue-color);
+}
+
+.Portfolio,
+.content,
+.studioo {
+  color: var(--black-color);
+}
+
+
+.tel {
+  color: var(--gray-color);
+}
+
+.efectin-solushns,
+.footer {
+  background-color: var(--dark-background-color);
+}
+
+.efectin-solushns h1 {
+  color: var(--white-color);
+}
+
+.button {
+  background-color: var(--blue-background-color);
+  color: var(--white-color);
+}
+
+section,
+
+.h3 {
+  color: var(--black-color);
+}
+
+p {
+  color: var(--gray-color);
+}
+
+.address {
+  color: var(--white-color);
+}
+
+.emeil,
+.tell {
+  color: var(--gray-color);
+}
