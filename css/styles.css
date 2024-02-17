@@ -6,7 +6,10 @@
   --blue-background-color: #2196f3;
   --dark-background-color: #2F303A;
 }
-
+body{
+  font-family: "Roboto", sans-serif;
+  font-family: "Roboto Serif", serif; font-optical-sizing: авто;
+}
 .studio,
 .mailto,
 .Portfolioo {
