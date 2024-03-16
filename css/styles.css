@@ -69,7 +69,9 @@ body{
   font-weight: 700;
 }
 
-
+.futuresection,
+.futureslu,
+.futuresli,
 .h3 {
   color: var(--black-color);
   font-size: 14px; /* Розмір шрифту */
