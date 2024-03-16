@@ -41,7 +41,7 @@ body{
 .efectin-solushns h1 {
   color: var(--white-color);
   font-size: 44px; /* Розмір шрифту */
-  line-height: 170%px; /* Значення line-height в пікселях */
+  line-height: 170%; /* Значення line-height в пікселях */
   font-weight: 900;
 }
 
@@ -49,7 +49,7 @@ body{
   background-color: var(--blue-background-color);
   color: var(--white-color);
   font-size: 16px; /* Розмір шрифту */
-  line-height: 187%px; /* Значення line-height в пікселях */
+  line-height: 187%; /* Значення line-height в пікселях */
   font-weight: 700;
 }
 
@@ -64,18 +64,33 @@ section,
 
 .h3 {
   color: var(--black-color);
-  font-size: 16px; /* Розмір шрифту */
+  font-size: 14px; /* Розмір шрифту */
   line-height: 117%; /* Значення line-height в пікселях */
   font-weight: 500;
 }
 
  
-p {
+.p {
   color: var(--gray-color);
   font-size: 16px; /* Розмір шрифту */
   line-height: 117%; /* Коефіцієнт 150% */
   font-weight: 400;
 }
+.sectis,
+.h3 {
+  color: var(--black-color);
+  font-size: 14px; /* Розмір шрифту */
+  line-height: 117%; /* Значення line-height в пікселях */
+  font-weight: 500;
+}
+
+ 
+.p {
+  color: var(--gray-color);
+  font-size: 16px; /* Розмір шрифту */
+  line-height: 117%; /* Коефіцієнт 150% */
+  font-weight: 400;
+} 
 
 .address {
   color: var(--white-color);
