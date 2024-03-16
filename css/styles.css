@@ -1,7 +1,7 @@
 :root {
   --blue-color: #2196f3;
   --black-color: #212123;
-  --gray-color: #75757575;
+  --gray-color: #757575;
   --white-color: #FFFFFF;
   --blue-background-color: #2196f3;
   --dark-background-color: #2F303A;
@@ -10,6 +10,7 @@ body{
   font-family: "Roboto", sans-serif;
   
 }
+.header,
 .studio,
 .mailto,
 .Portfolioo {
@@ -52,10 +53,17 @@ body{
   line-height: 187%; /* Значення line-height в пікселях */
   font-weight: 700;
 }
+.zanaiytay,
+.zagolovok {
+  font-size: 36px; /* Розмір шрифту */
+  line-height: 117,1%; /* Коефіцієнт 150% */
+  font-weight: 700;
+}
 
 
-section,
-.h2 {
+
+.sectis,
+.zagolovok {
   font-size: 36px; /* Розмір шрифту */
   line-height: 117,1%; /* Коефіцієнт 150% */
   font-weight: 700;
