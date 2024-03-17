@@ -114,3 +114,30 @@ body{
   font-size: 14px; /* Розмір шрифту */
   font-weight: 500;
 }
+.contener  {
+  width: 1200px;
+  margin: auto;
+  padding: 15px 0;
+  box-sizing: border-box;
+}
+.header {
+  padding: 24px 25px;
+
+}
+.efectin-solushns {
+  padding: 200px 0;
+}
+.futuresection {
+  margin: 94px 0;
+}
+.zanaiytay {
+  margin-bottom: 94px;
+}
+.sectis {
+  padding: 94px;
+  background-color: #F5F4FA;
+  ;
+} 
+.footer {
+  padding: 60px;
+}
