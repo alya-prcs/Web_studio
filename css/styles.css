@@ -141,3 +141,68 @@ body{
 .footer {
   padding: 60px;
 }
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.headerlu {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.logo {
+  padding-right: 63px;
+}
+.headerli {
+  padding-right: 50px;
+}
+#licontent {
+  padding-right: 310px;
+}
+.headerlii {
+  padding-right: 50px;
+}
+ul {
+  list-style: none;
+  padding: 0;
+}
+.efectin-solushns {
+  text-align: center;
+}
+.button {
+  width: 216px;
+  height: 50px;
+}
+.futureslu {
+  display: flex;
+  justify-content: space-between;
+}
+.futureslu li {
+width: 270px;
+}
+.zanaiytay {
+  align-items: center;
+
+}
+.divv {
+  display: flex;
+  justify-content: space-between;
+}
+.zanaiytayimg {
+  width: 370px;
+  height: 294px;
+}
+.zagolovok {
+text-align: center;
+}
+.diiv {
+  display: flex;
+  justify-content: space-between;
+  padding: 0;
+  margin: 0;
+}
+figure {
+  margin: 0;
+  padding: 0;
+}
