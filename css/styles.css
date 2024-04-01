@@ -206,3 +206,20 @@ figure {
   margin: 0;
   padding: 0;
 }
+.buttin {
+  width: 216px;
+  height: 50px;
+}
+.navi {
+  
+  align-items: center;
+}
+.sect {
+  padding: 174px;
+  background-color: #F5F4FA;
+  ;
+} 
+.flex-center {
+  display: flex;
+  flex-wrap: wrap;
+}
