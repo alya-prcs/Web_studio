@@ -220,6 +220,13 @@ figure {
   ;
 } 
 .flex-center {
+  justify-content: space-between;
   display: flex;
   flex-wrap: wrap;
+
+}
+.sectisfigure {
+border: 1px solid #EEEEEE;
+margin-bottom: 30px;
+
 }
