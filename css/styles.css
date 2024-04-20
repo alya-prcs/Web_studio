@@ -256,7 +256,7 @@ list-style: none;
 .futuresli:nth-child(1):before {
   display: flex;
   background-color:  var(--grey-background-color);
-  content: url("/img/antenna\ 1.png");
+  content: url("/img/antenna.png");
   justify-content: center;
   margin-bottom: 30px;
   padding: 25px;
@@ -265,7 +265,7 @@ list-style: none;
 .futuresli:nth-child(2):before {
   display: flex;
   background-color: var(--grey-background-color);
-  content: url("/img/clock\ 1.png");
+  content: url("/img/clock.png");
   justify-content: center;
   margin-bottom: 30px;
   padding: 25px;
@@ -273,7 +273,7 @@ list-style: none;
 .futuresli:nth-child(3):before {
   display: flex;
   background-color:  var(--grey-background-color);
-  content: url("/img/diagram\ 1.png");
+  content: url("/img/diagram.png");
   justify-content: center;
   margin-bottom: 30px;
   padding: 25px;
@@ -281,7 +281,7 @@ list-style: none;
 .futuresli:nth-child(4):before {
   display: flex;
   background-color:  var(--grey-background-color);
-  content: url("/img/astronaut\ 1.png");
+  content: url("/img/astronaut.png");
   justify-content: center;
   margin-bottom: 30px;
   padding: 25px;
