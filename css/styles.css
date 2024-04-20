@@ -35,9 +35,12 @@ body{
   font-weight: 500;
 }
 
-.efectin-solushns,
+.efectin-solushns {
+  background-image: url("/img/iiii.png");;
+}
 .footer {
-  background-color: var(--dark-background-color);
+  
+  background-color:var(--dark-background-color) ;
 }
 
 .efectin-solushns h1 {
@@ -59,6 +62,7 @@ body{
   font-size: 36px; /* Розмір шрифту */
   line-height: 117.1%; /* Коефіцієнт 150% */
   font-weight: 700;
+  
 }
 
 
@@ -68,6 +72,11 @@ body{
   font-size: 36px; /* Розмір шрифту */
   line-height: 117.1%; /* Коефіцієнт 150% */
   font-weight: 700;
+}
+.sectisfigure {
+  box-shadow: 0px 7px 20px -4px #bab3b3;
+  border-radius: 5px;
+  overflow: hidden;
 }
 
 .futuresection,
