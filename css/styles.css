@@ -5,6 +5,7 @@
   --white-color: #FFFFFF;
   --blue-background-color: #2196f3;
   --dark-background-color: #2F303A;
+  --grey-background-color: #F5F4FA;
 }
 body{
   font-family: "Roboto", sans-serif;
@@ -251,4 +252,37 @@ list-style: none;
 }
 .sectisfigure {
   border: 1px solid #EEEEEE;
+}
+.futuresli:nth-child(1):before {
+  display: flex;
+  background-color:  var(--grey-background-color);
+  content: url("/img/antenna\ 1.png");
+  justify-content: center;
+  margin-bottom: 30px;
+  padding: 25px;
+
+}
+.futuresli:nth-child(2):before {
+  display: flex;
+  background-color: var(--grey-background-color);
+  content: url("/img/clock\ 1.png");
+  justify-content: center;
+  margin-bottom: 30px;
+  padding: 25px;
+}
+.futuresli:nth-child(3):before {
+  display: flex;
+  background-color:  var(--grey-background-color);
+  content: url("/img/diagram\ 1.png");
+  justify-content: center;
+  margin-bottom: 30px;
+  padding: 25px;
+}
+.futuresli:nth-child(4):before {
+  display: flex;
+  background-color:  var(--grey-background-color);
+  content: url("/img/astronaut\ 1.png");
+  justify-content: center;
+  margin-bottom: 30px;
+  padding: 25px;
 }
