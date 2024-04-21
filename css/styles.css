@@ -36,7 +36,10 @@ body{
 }
 
 .efectin-solushns {
-  background-image: url("/img/iiii.png");;
+  background-image: url("../img/iiii.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color:var(--dark-background-color) ;
 }
 .footer {
   
@@ -265,7 +268,7 @@ list-style: none;
 .futuresli:nth-child(1):before {
   display: flex;
   background-color:  var(--grey-background-color);
-  content: url("/img/antenna.png");
+  content: url("../img/antenna.png");
   justify-content: center;
   margin-bottom: 30px;
   padding: 25px;
@@ -274,7 +277,7 @@ list-style: none;
 .futuresli:nth-child(2):before {
   display: flex;
   background-color: var(--grey-background-color);
-  content: url("/img/clock.png");
+  content: url("../img/clock.png");
   justify-content: center;
   margin-bottom: 30px;
   padding: 25px;
@@ -282,7 +285,7 @@ list-style: none;
 .futuresli:nth-child(3):before {
   display: flex;
   background-color:  var(--grey-background-color);
-  content: url("/img/diagram.png");
+  content: url("../img/diagram.png");
   justify-content: center;
   margin-bottom: 30px;
   padding: 25px;
@@ -290,7 +293,7 @@ list-style: none;
 .futuresli:nth-child(4):before {
   display: flex;
   background-color:  var(--grey-background-color);
-  content: url("/img/astronaut.png");
+  content: url("../img/astronaut.png");
   justify-content: center;
   margin-bottom: 30px;
   padding: 25px;
