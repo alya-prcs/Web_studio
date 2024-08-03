@@ -6,6 +6,7 @@
   --blue-background-color: #2196f3;
   --dark-background-color: #2F303A;
   --grey-background-color: #F5F4FA;
+  --icon-color: #AFB1B8;
 }
 body{
   font-family: "Roboto", sans-serif;
@@ -297,4 +298,68 @@ list-style: none;
   justify-content: center;
   margin-bottom: 30px;
   padding: 25px;
+}
+.figuralt .icon {
+width: 20px;
+height: 20px;
+fill: var(--icon-color);
+}
+.figurlist{
+  display: flex;
+  justify-content: space-around;
+}
+.figuralt{
+  height: 50px;
+  padding: 15px;
+  border-radius: 50%;
+  display: inline-block;
+}
+.figuralt:hover{
+  background-color: var(--blue-color);
+}
+.figuralt:hover .icon{
+  fill: var(--white-color);
+}
+.mailto{
+  display: flex;
+  justify-content: space-around;
+}
+.hederemel{
+  width: 20px;
+height: 20px;
+display: inline-block;
+fill: var(--icon-color);
+}
+.tel{
+  display: flex;
+  justify-content: space-around;
+}
+.hedertel{
+  width: 20px;
+  height: 20px;
+  display: inline-block;
+  fill: var(--icon-color);
+}
+.dnnn{
+  display: flex;
+  justify-content: space-between;
+  padding: 0;
+  margin: 0;
+}
+.posticon .iconi{
+  width: 106px;
+height: 60px;
+fill: var(--icon-color);
+}
+.postclin{
+  display: flex;
+  justify-content: space-around;
+}
+.posticon{
+  height: 50px;
+  padding: 55px;
+  display: inline-block;
+}
+.section3{
+  align-items: center;
 }
