@@ -12,11 +12,23 @@ body{
   font-family: "Roboto", sans-serif;
   
 }
+a{
+  text-decoration: none;
+}
+.mailto:hover{
+  color: var(--blue-color);
+}
+.mailto:hover .hederemel{
+  fill: var(--blue-color);
+}
+.tel:hover {
+  fill: var(--blue-color);
+}
 .header,
 .studio,
 .mailto,
 .Portfolioo {
-  color: var(--blue-color);
+  color: var(--gray-color);
   font-size: 14px; /* Розмір шрифту */
   font-weight: 500;
 }
@@ -199,10 +211,7 @@ width: 270px;
   align-items: center;
 
 }
-.divv {
-  display: flex;
-  justify-content: space-between;
-}
+
 .zanaiytayimg {
   width: 370px;
   height: 294px;
@@ -339,6 +348,7 @@ fill: var(--icon-color);
   height: 20px;
   display: inline-block;
   fill: var(--icon-color);
+  
 }
 .dnnn{
   display: flex;
@@ -347,19 +357,60 @@ fill: var(--icon-color);
   margin: 0;
 }
 .posticon .iconi{
-  width: 106px;
-height: 60px;
+  width: 170px;
+height: 90px;
 fill: var(--icon-color);
+border: solid;
+border-color: var(--icon-color);
+padding: 15px;
+}
+.posticon:hover .iconi{
+  fill: var(--blue-color);
+  border-color: var(--blue-color) ;
 }
 .postclin{
   display: flex;
   justify-content: space-around;
+  
 }
 .posticon{
   height: 50px;
   padding: 55px;
   display: inline-block;
+  
 }
 .section3{
   align-items: center;
+  
+}
+.footerp{
+  color: var(--white-color);
+}
+.footeralt .icon {
+  width: 20px;
+  height: 20px;
+  fill: var(--white-color);
+  }
+.footerlist{
+  display: flex;
+  
+}
+.footeralt{
+  height: 50px;
+  padding: 15px;
+  border-radius: 50%;
+  display: inline-block;
+}
+.footeralt:hover{
+  background-color: var(--blue-color);
+}
+.footeralt:hover .icon{
+  fill: var(--white-color);
+}
+.footerul {
+  display: flex;
+}
+.footerlii{
+  display: flex;
+  justify-content: center;
 }
