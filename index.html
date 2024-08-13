@@ -51,7 +51,36 @@
         <section class="efectin-solushns">
             <div class="contener">
                 <h1>Ефективні рішення для вашого бізнесу</h1>
-                <button class="button" type="submit">Замовити послугу</button>
+                <button class="button" type="submit" data-modal-open>Замовити послугу</button>
+                <div class="backdrop is-hidden" data-modal>
+                    <form class="modal">
+                        <div class="modal-title">
+                            <h2>Залиште свої дані, ми вам передзвонимо</h2>
+                            <button class="btn" data-modal-close>X</button>
+                        </div>
+            
+                        <label class="form-label" for="firstname">Ім'я</label>
+                        <input class="form-input" type="text" name="firstname" id="firstname"
+                            required minlength="2" maxlength="30" placeholder="Vitalii">
+
+                        <label class="form-label" for="phone">Телефон</label>
+                        <input class="form-input" type="tel" name="phone" id="phone"
+                            required minlength="2" maxlength="30">
+            
+                        <label class="form-label" for="email">E-mail</label>
+                        <input class="form-input" type="email" name="email" id="email"
+                            required pattern="/^[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$"
+                            title="Введіть коректну електронну адресу">
+            
+            
+                        <label class="form-label" for="comment">Коментар</label>
+                        <textarea class="form-input" name="comment" id="comment"
+                            minlength="10" maxlength="256"></textarea>
+            
+                        <button class="form-btn button" type="submit">Відправити</button>
+                        
+                    </form>
+                </div>
 
             </div>
         </section>
@@ -85,12 +114,17 @@
             <div class="contener">
                 <h2 class="zagolovok">Чим ми займаємося</h2>
                 <div class="divv">
-                    <img class="zanaiytayimg" src="img/msg5423152959-37340 (2).jpg" alt="photo1">
-
-                    <img class="zanaiytayimg" src="img/msg5423152959-37341 (2).jpg" alt="photo1">
-
-                    <img class="zanaiytayimg" src="img/msg5423152959-37342 (2).jpg" alt="photo1">
+                    <div class="zanaa-wrap"> <img class="zanaiytayimg" src="img/msg5423152959-37340 (2).jpg"
+                            alt="photo1"><p class="zanaitay-text">Десктопні додатки</p></div>
+                    <div class="zanaa-wrap"><img class="zanaiytayimg" src="img/msg5423152959-37341 (2).jpg"
+                            alt="photo1"><p class="zanaitay-text">Мобільні додатки</p></div>
+                    <div class="zanaa-wrap"><img class="zanaiytayimg" src="img/msg5423152959-37342 (2).jpg"
+                        alt="photo1"><p class="zanaitay-text">Дизайнерські рішення</p></div>
                 </div>
+
+
+
+            </div>
             </div>
 
         </section>
@@ -210,7 +244,7 @@
                         <li class="poscl"><a class="posticon"><svg class="iconi">
                                     <use href="img/symbol-defs.svg#icon-group-3"></use>
                                 </svg></a></li>
-                                <li><a class="posticon"><svg class="iconi">
+                        <li><a class="posticon"><svg class="iconi">
                                     <use href="img/symbol-defs.svg#icon-group-4"></use>
                                 </svg></a></li>
                         <li class="poscl"><a class="posticon"><svg class="iconi">
@@ -234,24 +268,24 @@
                 </li>
                 <li class="foterli">
                     <p class="footerp">приєднуйтесь</p>
-            <ul class="footerlist">
-                <li class="footerling"><a class="footeralt"><svg class="icon">
-                            <use href="img/symbol-defs.svg#icon-instagram-2"></use>
-                        </svg></a></li>
-                <li class="footerling"><a class="footeralt"><svg class="icon">
-                            <use href="img/symbol-defs.svg#icon-twitter-1"></use>
-                        </svg></a></li>
-                <li class="footerling"><a class="footeralt"><svg class="icon">
-                            <use href="img/symbol-defs.svg#icon-facebook-1"></use>
-                        </svg></a></li>
-                <li class="footerling"><a class="footeralt"><svg class="icon">
-                            <use href="img/symbol-defs.svg#icon-linkedin-1"></use>
-                        </svg></a></li>
-            </ul>
+                    <ul class="footerlist">
+                        <li class="footerling"><a class="footeralt"><svg class="icon">
+                                    <use href="img/symbol-defs.svg#icon-instagram-2"></use>
+                                </svg></a></li>
+                        <li class="footerling"><a class="footeralt"><svg class="icon">
+                                    <use href="img/symbol-defs.svg#icon-twitter-1"></use>
+                                </svg></a></li>
+                        <li class="footerling"><a class="footeralt"><svg class="icon">
+                                    <use href="img/symbol-defs.svg#icon-facebook-1"></use>
+                                </svg></a></li>
+                        <li class="footerling"><a class="footeralt"><svg class="icon">
+                                    <use href="img/symbol-defs.svg#icon-linkedin-1"></use>
+                                </svg></a></li>
+                    </ul>
                 </li>
             </ul>
-            
-            
+
+
         </div>
 
     </footer>
@@ -260,7 +294,7 @@
 
 
 
-
+<script src="js/main.js"></script>
 </body>
 
 </html>
