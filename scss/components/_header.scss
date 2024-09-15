@@ -1,0 +1,60 @@
+.mailto:hover{
+    color: var(--blue-color);
+  }
+  .mailto:hover .hederemel{
+    fill: var(--blue-color);
+  }
+  .tel:hover {
+    fill: var(--blue-color);
+  }
+  .tel {
+    color: var(--gray-color);
+    font-size: 14px; /* Розмір шрифту */
+    font-weight: 500;
+    transition: color 1s  cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  .nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  .logo {
+    padding-right: 63px;
+  }
+  .headerlu {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  .headerli {
+    padding-right: 50px;
+  }
+  .headerlii {
+    padding-right: 50px;
+  }
+  #licontent {
+    padding-right: 310px;
+  }
+  .hederemel{
+    width: 20px;
+  height: 20px;
+  display: inline-block;
+  fill: var(--icon-color);
+  transition: fill 250ms  cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  .mailto{
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .tel{
+    display: flex;
+    justify-content: space-around;
+  }
+  .hedertel{
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    fill: var(--icon-color);
+    
+  }

@@ -1,0 +1,47 @@
+.footer {
+    background-color:var(--dark-background-color) ;
+  }
+  .footer {
+    padding: 60px;
+  }
+  .footerul {
+    display: flex;
+  }
+  .address {
+    color: var(--white-color);
+    font-size: 14px; /* Розмір шрифту */
+    font-weight: 500;
+  }
+  .emeil,
+.tell {
+  color: var(--gray-color);
+  font-size: 14px; /* Розмір шрифту */
+  font-weight: 500;
+}
+.footerp{
+    color: var(--white-color);
+  }
+  .footerlist{
+    display: flex;
+  }
+  .footeralt .icon {
+    width: 20px;
+    height: 20px;
+    fill: var(--white-color);
+    transition: fill 250ms  cubic-bezier(0.4, 0, 0.2, 1);
+    }
+  .footeralt{
+    height: 50px;
+    padding: 15px;
+    border-radius: 50%;
+    display: inline-block;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color:var(--gray-colordark-background-color) ;
+  }
+  .footeralt:hover{
+    background-color: var(--blue-color);
+  }
+  .footeralt:hover .icon{
+    fill: var(--white-color);
+  }
